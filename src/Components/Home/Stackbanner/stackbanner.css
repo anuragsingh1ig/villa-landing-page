@@ -1,11 +1,15 @@
 .featured-main-container {
-    max-width: 90%;
+    max-width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
-.featured-body-container p{
+.featured-body-container p {
     color: #f35525;
     font-weight: 700;
 }

@@ -1,0 +1,35 @@
+.videosection-main-container {
+    background-image: url('https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-bg.jpg');
+    background-repeat: no-repeat;
+    object-fit: fill;
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videosection-content {
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+}
+
+.videosection-content h6{
+    color: #d6603d;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.videosection-content h2{
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+
+.youtube-video-player {
+    border-radius: 16px;
+    transform: translateY(80px);
+}

@@ -1,5 +1,11 @@
+.featured-body-container {
+    @media screen and (max-width: 768px) {
+        padding-top: 50px;
+    }
+}
+
 .featured-body-container h2 {
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .toggle-button {
@@ -13,17 +19,22 @@
 }
 
 .accordion-main-container {
-    max-width: 400px;
+    width: 400px;
 }
 
-.accordian-card {
+.card {
     border-radius: 0;
 }
 
-.accordian-card:first-child {
+.card:first-child {
     border-radius: 16px 16px 0 0;
 }
 
-.accordian-card:last-child {
+.card:last-child {
     border-radius: 0 0 16px 16px;
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: none;
 }

@@ -1,8 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
 import ControlledCarousel from './ControlledCarousel/ControlledCarousel'
-import Featured from './Featured/Featured'
 import Spacer from './Spacer/Spacer'
+import Stackbanner from './Stackbanner/Stackbanner'
+import VideoSection from './VideoSection/VideoSection'
+import Stats from './Stats/Stats'
 
 const Home = () => {
   return (
@@ -10,7 +12,11 @@ const Home = () => {
       <Navbar />
       <ControlledCarousel />
       <Spacer height={"100px"} />
-      <Featured />
+      <Stackbanner />
+      <Spacer height={"100px"} />
+      <VideoSection />
+      <Spacer height={"180px"} />
+      <Stats />
       <Spacer height={"100px"} />
     </>
   )
