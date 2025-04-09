@@ -1,0 +1,11 @@
+.featured-main-container {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-body-container p{
+    color: #f35525;
+    font-weight: 700;
+}

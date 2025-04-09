@@ -1,0 +1,29 @@
+.featured-body-container h2 {
+    font-weight: 700;
+}
+
+.toggle-button {
+    background: none;
+    border: 0;
+    outline-width: 0;
+}
+
+.active {
+    color: #f35525;
+}
+
+.accordion-main-container {
+    max-width: 400px;
+}
+
+.accordian-card {
+    border-radius: 0;
+}
+
+.accordian-card:first-child {
+    border-radius: 16px 16px 0 0;
+}
+
+.accordian-card:last-child {
+    border-radius: 0 0 16px 16px;
+}
