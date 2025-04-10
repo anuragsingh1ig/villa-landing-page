@@ -1,0 +1,55 @@
+.property-card {
+    border: none;
+    background-color: #fafafa;
+    border-radius: 16px;
+}
+
+.price-category-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.category-text {
+    background-color: #fbd9cf;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.price-text {
+    color: #f58c25;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.amenities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.btn {
+    background-color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 32px;
+    font-weight: 600;
+    display: block;
+    margin: auto;
+}

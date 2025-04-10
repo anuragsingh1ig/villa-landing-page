@@ -5,6 +5,7 @@ import Spacer from './Spacer/Spacer'
 import Stackbanner from './Stackbanner/Stackbanner'
 import VideoSection from './VideoSection/VideoSection'
 import Stats from './Stats/Stats'
+import Properties from './Properties/Properties'
 
 const Home = () => {
   return (
@@ -17,6 +18,8 @@ const Home = () => {
       <VideoSection />
       <Spacer height={"180px"} />
       <Stats />
+      <Spacer height={"100px"} />
+      <Properties />
       <Spacer height={"100px"} />
     </>
   )

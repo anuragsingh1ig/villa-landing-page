@@ -1,0 +1,17 @@
+.header-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-main-container p {
+    font-weight: 700;
+    color: #ee626b;
+}
+
+.header-main-container h2 {
+    font-weight: 800;
+    text-align: center;
+    width: 30%;
+}
