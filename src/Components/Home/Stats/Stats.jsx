@@ -8,7 +8,7 @@ const Stats = () => {
         <div className='stats-main-container'>
             {
                 json.statsData.map((el, idx) => {
-                    return <StatCard card={el} />
+                    return <StatCard key={idx + "sts"} card={el} />
                 })
             }
         </div>

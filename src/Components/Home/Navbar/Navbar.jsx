@@ -4,6 +4,7 @@ import "./navbar.css"
 const Navbar = () => {
     const headerRef = useRef(null);
     const [isSticky, setIsSticky] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -47,14 +48,20 @@ const Navbar = () => {
                     <a href="#" className='no-hover'>
                         <h2>VILLA</h2>
                     </a>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Properties</a></li>
-                        <li><a href="#">Property Details</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li className='calendar'><a href="#"><i className="fa fa-calendar"></i> Schedule a visit</a></li>
-                    </ul>
+
+                    <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+                        <span className="bar"></span>
+                        <span className="bar"></span>
+                        <span className="bar"></span>
+                    </div>
                 </nav>
+                <ul className={menuOpen ? "nav-links open" : "nav-links"}>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Properties</a></li>
+                    <li><a href="#">Property Details</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li className='calendar'><a href="#"><i className="fa fa-calendar"></i> Schedule a visit</a></li>
+                </ul>
             </header>
         </div>
     )

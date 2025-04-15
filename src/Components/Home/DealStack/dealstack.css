@@ -1,0 +1,17 @@
+.dealstack-main-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+/* .dealstack-header {} */
+
+.dealstack-header p {
+    color: #f35525;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.dealstack-header h2 {
+    font-weight: bold;
+}

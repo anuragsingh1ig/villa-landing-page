@@ -9,7 +9,7 @@ const HighlightsPanel = () => {
                 {
                     json.highlightData.map((el, idx) => {
                         return (
-                            <li>
+                            <li key={idx + "hl"}>
                                 <div>
                                     <img src={el.imgSrc} alt={el.title} />
                                 </div>

@@ -15,13 +15,13 @@
     color: white;
 }
 
-.videosection-content h6{
+.videosection-content h6 {
     color: #d6603d;
     text-transform: uppercase;
     font-weight: 800;
 }
 
-.videosection-content h2{
+.videosection-content h2 {
     text-transform: uppercase;
     margin-top: 50px;
     font-weight: 800;
@@ -32,4 +32,10 @@
 .youtube-video-player {
     border-radius: 16px;
     transform: translateY(80px);
+
+    @media screen and (max-width: 600px) {
+        height: 100%;
+        width: 100%;
+        transform: translateY(0px);
+    }
 }
